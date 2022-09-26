@@ -1,0 +1,14 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" %>
+<p>
+	In <a href="http://en.wikipedia.org/wiki/Mathematics" title="Mathematics">mathematics</a>, a <b>normal number</b> is a <a href="http://en.wikipedia.org/wiki/Real_number" title="Real number">real number</a> whose infinite sequence of <a href="http://en.wikipedia.org/wiki/Positional_notation" title="Positional notation">digits</a> in every <a href="http://en.wikipedia.org/wiki/Radix" title="Radix">base</a>&nbsp;<var>b</var><sup id="cite_ref-1" class="reference"><a href="http://en.wikipedia.org/wiki/Normal_number#cite_note-1"><span>[</span>1<span>]</span></a></sup> is distributed uniformly in the sense that each of the
+	<var>
+	b</var> digit values has the same <a href="http://en.wikipedia.org/wiki/Natural_density" title="Natural density">natural density</a>&nbsp;1/<var>b</var>, also all possible
+	<var>
+	b</var><sup>2</sup>&nbsp;pairs of digits are equally likely with density&nbsp;<var>b</var><sup>−2</sup>, all
+	<var>
+	b</var><sup>3</sup>&nbsp;triplets of digits equally likely with density&nbsp;<var>b</var><sup>−3</sup>, etc.</p>
+<p>
+	In lay terms, this means that no digit, or combination of digits, occurs more frequently than any other, and this is true whether the number is written in base 10, binary, or any other base. A normal number can be thought of as an infinite sequence of coin flips (<a href="http://en.wikipedia.org/wiki/Binary_number" title="Binary number">binary</a>) or rolls of a die (base 6). Even though there <i>will</i> be sequences such as 10, 100, or more consecutive tails (binary) or fives (base 6) or even 10, 100, or more repetitions of a sequence such as tail-head (two consecutive coin flips) or 6-1 (two consecutive rolls of a die), there will also be equally many of any other sequence of equal length. No digit or sequence is &quot;favored&quot;.</p>
+<p>
+	While a general proof can be given that <a href="http://en.wikipedia.org/wiki/Almost_all" title="Almost all">almost all</a> real numbers are normal (in the sense that the set of exceptions has <a href="http://en.wikipedia.org/wiki/Lebesgue_measure" title="Lebesgue measure">Lebesgue measure</a> zero), this proof is not <a href="http://en.wikipedia.org/wiki/Constructive_proof" title="Constructive proof">constructive</a> and only very few specific numbers have been shown to be normal. For example, it is widely believed that the numbers <a href="http://en.wikipedia.org/wiki/Square_root_of_2" title="Square root of 2"><span class="nowrap">√<span style="padding: 0px 0.1em; border-top-color: currentColor; border-top-width: 1px; border-top-style: solid;">2</span></span></a>, <a href="http://en.wikipedia.org/wiki/Pi" title="Pi">π</a>, and <i><a href="http://en.wikipedia.org/wiki/E_(mathematical_constant)" title="E (mathematical constant)">e</a></i> are normal, but a proof remains elusive.</p>
+

@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nilnul.num._real_._KEN_", "nilnul.num._real_._KEN_.csproj", "{4F6E8C23-F4A2-474E-A664-48CAE49E7A93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		_Temp|Any CPU = _Temp|Any CPU
+		_Temp|Mixed Platforms = _Temp|Mixed Platforms
+		_Temp|x86 = _Temp|x86
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F6E8C23-F4A2-474E-A664-48CAE49E7A93}._Temp|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6E8C23-F4A2-474E-A664-48CAE49E7A93}._Temp|Any CPU.Build.0 = Release|Any CPU
+		{4F6E8C23-F4A2-474E-A664-48CAE49E7A93}._Temp|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4F6E8C23-F4A2-474E-A664-48CAE49E7A93}._Temp|Mixed Platforms.Build.0 = Release|Any CPU
+		{4F6E8C23-F4A2-474E-A664-48CAE49E7A93}._Temp|x86.ActiveCfg = Release|Any CPU
+		{4F6E8C23-F4A2-474E-A664-48CAE49E7A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F6E8C23-F4A2-474E-A664-48CAE49E7A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F6E8C23-F4A2-474E-A664-48CAE49E7A93}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4F6E8C23-F4A2-474E-A664-48CAE49E7A93}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4F6E8C23-F4A2-474E-A664-48CAE49E7A93}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4F6E8C23-F4A2-474E-A664-48CAE49E7A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6E8C23-F4A2-474E-A664-48CAE49E7A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F6E8C23-F4A2-474E-A664-48CAE49E7A93}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4F6E8C23-F4A2-474E-A664-48CAE49E7A93}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4F6E8C23-F4A2-474E-A664-48CAE49E7A93}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52B7623D-5954-4680-8199-36DF190FDB8D}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ..\..\nilnul.num.rational\nilnul.num.rational.vsmdi
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ..\..\msn@mesh\develop(120409)\projs\nilnul.net.login\nilnul.net.login.vsmdi
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ..\..\nilnul.num.rational\nilnul.num.rational.vsmdi
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ..\..\msn@mesh\develop(120409)\projs\nilnul.net.login\nilnul.net.login.vsmdi
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ..\..\msn@mesh\develop(120409)\projs\nilnul.net.login\nilnul.net.login.vsmdi
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ..\..\msn@mesh\develop(120409)\projs\nilnul.net.login\nilnul.net.login.vsmdi
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ..\..\msn@mesh\develop(120409)\projs\nilnul.net.login\nilnul.net.login.vsmdi
+	EndGlobalSection
+EndGlobal

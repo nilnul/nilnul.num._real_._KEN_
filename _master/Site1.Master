@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="nilnul.num.real._Ken._web._master.Site1" %>
+
+<%@ Register Assembly="nilnul.web._css_.WEB._CTR_" Namespace="nilnul.web._css_.WEB._CTR_.theme_" TagPrefix="cc4" %>
+
+<%@ Register Assembly="nilnul.web._js_.WEB._CTR_" Namespace="nilnul.web._js_.WEB._CTR_" TagPrefix="cc2" %>
+
+<%--<%@ Register Assembly="nilnul.web._js_.WEB._CTR_" Namespace="nilnul.web.js._web._ctr.mathJax" TagPrefix="cc6" %>--%>
+
+
+<%--<%@ Register Assembly="nilnul.web._css_.WEB._CTR_" Namespace="nilnul.web.css._web._ctr.theme_" TagPrefix="cc3" %>--%>
+
+<%@ Register Assembly="nilnul.web._js_.WEB._CTR_" namespace="nilnul.web.script.webctrl" tagprefix="cc1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <cc2:JqueryNilnul ID="JqueryNilnul1" runat="server"></cc2:JqueryNilnul>
+
+	<%--<cc6:MathJaxCdnOrLocal ID="MathJaxCdnOrLocal2" runat="server" />--%>
+	<%--<cc3:theme__Default ID="General2" runat="server" />--%>
+    <cc4:theme__Default ID="Theme__Default1" runat="server" />
+</head>
+<body>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+</body>
+</html>

@@ -1,0 +1,74 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+	
+	    <p>
+            一组正数a_1,...,a_n, 它们的和小于 1/2，<br />
+            求证 (1-a_1)...(1-a_n) 大于 1/2。<br />
+        </p>
+        <p>
+            以下用各种方法证明：</p>
+        <h1>
+            Inclusive/Exclusive Theorem</h1>
+        <p>
+            and (~A[i] ) = ~（or (A[i]))</p>
+        <p>
+            or ( A[i]) &lt;= Sum(A[i])&lt;/12</p>
+        <p>
+            So ~(or (A[i]) ) &gt;1/2</p>
+        <h1>
+            归纳法：</h1>
+        <p>
+            ( 1-a[1])(1-a2)&gt;(1-a1-a2)</p>
+        <p>
+            &nbsp;</p>
+        <p>
+            suppose it holds for n=k, then </p>
+        <p>
+            (1-a[1])(1-a[2])...(1-a[k+1]) &gt; 
+            (1-a1-a2-...ak)(1-a[k+1])&gt;1-a1-a2-...-a[k+1])&gt;1/2.</p>
+        <h1>
+            用凸函数的性质来证明：</h1>
+        <p>
+            <span class="f006">&nbsp;ln(1-x)是上凸函数，两端点函数值为0和-ln2，过(0,0), 
+            (1/2,-ln2)的直线为y=-(2ln2)x,故ln(1-x)&gt;=-(2ln2)x</span><br />
+            <span class="f006">&nbsp;然后求和就得到结论了</span><br />
+        </p>
+        <h1>
+            Programming</h1>
+        <p>
+            那个证法是从优化方法处理(只是不同的处理，就原题而言无须用这个方法）<br />
+            先证明下面<br />
+            ai&gt;=0, sum ai &lt;= 1/2<br />
+            证明：(1-a1)...(1-an) 最小值为1/2<br />
+            <br />
+            首先证明：若{ai}为最小点，则{ai}中必定只有一个非0<br />
+            <br />
+            若有两个非0，不妨设为ai&gt;0, aj&gt;0<br />
+            考虑(1-ai)(1-aj) = 1-ai-aj+ai*aj<br />
+            显然将ai, aj换成0, ai+aj仍满足题目条件且会使得目标式子严格更小，<br />
+            这与最优性矛盾。得证。<br />
+            <br />
+            然后，显然唯一的非0的取1/2时最小值为1/2。<br />
+            <br />
+            然后，若题目条件为ai&gt;0, sum ai &lt; 1/2，<br />
+            则最小值1/2无法取得。所以(1-a1)...(1-an) &gt; 1/2<br />
+        </p>
+        <h1>
+            Polynomial</h1>
+        <p>
+            根据题设条件，<br />
+            令f(x)=(x-a1)(x-a2)...=x^n-m1*x^(n-1)+m2*x^(n-2)-...&gt; 
+            x^n-1/2*x^(n-1)+m2*x^(n-2)-...<br />
+            其中mi为ai生成的系数，m1&lt;1/2，故f(1)=(1-a1)(1-a2)...&gt; 1/2+m2-m3+...<br />
+            因为0&lt;ai&lt;1，故m2&gt;m3&gt;m4...，故f(1)&gt;1/2<br />
+        </p>
+        <p>
+            <br />
+        </p>
+	
+	</body>
+</html>
